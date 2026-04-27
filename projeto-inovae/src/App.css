@@ -1,0 +1,234 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+/* ================= HEADER ================= */
+.topo {
+    background-color: #b8c9b1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 18px;
+}
+
+.topo h2 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* LOGO */
+.logo h1 {
+    font-size: 22px;
+    color: #2f5d2f;
+}
+
+.logo-text {
+    font-size: 18px;
+}
+
+/* ICONS */
+.home-icon {
+    width: 22px;
+    height: 18px;
+    border: 2px solid #2f5d2f;
+    border-top: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.home-icon::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: -2px;
+    width: 18px;
+    height: 18px;
+    border-left: 2px solid #2f5d2f;
+    border-top: 2px solid #2f5d2f;
+    transform: rotate(45deg);
+}
+
+.profile-circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #d9d9d9;
+    cursor: pointer;
+}
+
+/* ================= LOGIN ================= */
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: #b8c9b1;
+    padding: 35px 25px;
+    border-radius: 8px;
+    width: 260px;
+    text-align: center;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    background: #9fb49a;
+    margin-bottom: 20px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    background: #4f7f45;
+    color: white;
+    cursor: pointer;
+}
+
+/* ================= EMERGENCY ================= */
+.emergency-content {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.btn-emergency {
+    background: #d63c3c;
+    color: white;
+    border: none;
+    padding: 16px 50px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.emergency-options {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.option {
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* ================= PAGE BASE ================= */
+.page {
+    height: 100vh;
+}
+
+/* ================= ACCOUNT ================= */
+.account-box {
+    max-width: 320px;
+    margin: 30px auto;
+    padding: 10px 20px;
+}
+
+.avatar {
+    width: 90px;
+    height: 90px;
+    background: #cfe0c9;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.account-box label {
+    font-size: 13px;
+    margin-top: 12px;
+    display: block;
+}
+
+.account-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #bbb;
+    margin-top: 5px;
+    background: white;
+}
+
+.password-field {
+    display: flex;
+    align-items: center;
+}
+
+.password-field input {
+    flex: 1;
+}
+
+.password-field span {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.edit-link {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #666;
+}
+
+/* ================= CONTACTS ================= */
+.contacts {
+    padding: 25px;
+}
+
+.contacts p {
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+
+/* ================= MAP ================= */
+.map-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.map-box img {
+    width: 85%;
+    border-radius: 12px;
+}
+
+/* ================= HOME FIXES ================= */
+.busca {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    background: #eaeaea;
+}
+
+/* banner */
+.banner-img {
+    width: 65%;
+    height: 150px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* cards */
+.card {
+    width: 180px;
+    height: 130px;
+}
